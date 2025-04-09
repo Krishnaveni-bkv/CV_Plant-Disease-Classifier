@@ -29,7 +29,7 @@ label_dict = {
     5: 'Tomato_Leaf_Mold'
 }
 
-st.title("🌿 Plant Disease Classifier")
+st.title("Plant Disease Classifier(Transfer Learning_VGG16")
 st.write("Upload a leaf image to detect plant disease.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
